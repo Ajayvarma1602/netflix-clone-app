@@ -8,7 +8,7 @@ export default defineConfig({
 	server: {
 		proxy: {
 			"/api": {
-				target: "http://localhost:5008",
+				target: "https://netflix-clone-app-yx0m.onrender.com",
 			},
 		},
 	},
